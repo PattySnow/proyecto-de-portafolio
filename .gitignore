@@ -12,5 +12,3 @@ __pycache__/
 # Archivos de caché estáticos de Django
 /static_collected/
 
-# Archivos de credenciales (si creas uno)
-settings_local.py
