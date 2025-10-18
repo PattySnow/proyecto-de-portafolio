@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TallerConnect | Home</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> 
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <span class="logo">TallerConnect</span>
+            <nav>
+                <a href="/">Inicio</a>
+                <a href="/admin">Administración</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <div class="hero-section">
+            <h1>Bienvenido a TallerConnect (Plataforma de Gestión)</h1>
+            <p class="subtitle">¡El inicio de tu solución de gestión de clientes y vehículos!</p>
+        </div>
+
+        <div class="card-container">
+           
+            <ul>
+                <li><strong>Login de acceso:</strong> Vía `/admin`</li>
+                <li><strong>Mantenedor de Clientes (CRUD):</strong> Vía `/admin`</li>
+                <li><strong>Mantenedor de Vehículos (CRUD):</strong> Vía `/admin`</li>
+            </ul>
+            
+            <p class="admin-link-text">
+                <a href="/admin" class="btn-primary">Ir al Panel de Administración</a>
+            </p>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2023 TallerConnect. </p>
+    </footer>
+</body>
+</html>

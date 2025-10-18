@@ -1,0 +1,16 @@
+# Directorios de entorno virtual
+myenv/
+.venv/
+
+# Archivos de la base de datos de desarrollo (SQLite)
+*.sqlite3
+
+# Archivos compilados de Python
+*.pyc
+__pycache__/
+
+# Archivos de caché estáticos de Django
+/static_collected/
+
+# Archivos de credenciales (si creas uno)
+settings_local.py
